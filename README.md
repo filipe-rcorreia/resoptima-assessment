@@ -1,5 +1,6 @@
 # Movie explorer 🎥
 
+Teste
 In this task you are invited to create a Movie Catalog Explorer 🎬 :)
 
 ![](./wf.png)
@@ -20,7 +21,7 @@ The main requirements are:
 
 ## Server-side api
 
-This project provides a server-side nodejs API that contains the endpoint to retrieve the list of 1000 movies. 
+This project provides a server-side nodejs API that contains the endpoint to retrieve the list of 1000 movies.
 
 To start the service API, you need to run:
 
