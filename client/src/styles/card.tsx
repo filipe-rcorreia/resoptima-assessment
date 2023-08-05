@@ -23,7 +23,7 @@ export const CardText = styled.div`
 
 export const CardTitle = styled(LineLimit).attrs({ as: "h2" })`
   font-size: 20px;
-  color: black;
+  color: #000;
 `;
 
 export const CardDirector = styled.p`

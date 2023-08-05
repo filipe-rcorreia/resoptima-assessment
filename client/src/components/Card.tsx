@@ -1,5 +1,4 @@
 import { IMovie } from "../types";
-import styled from "styled-components";
 import { CardContainer, CardImage, CardText, CardTitle, CardDirector, CardDescription, CardYear } from "../styles";
 
 export const Card = (props: IMovie) => {
