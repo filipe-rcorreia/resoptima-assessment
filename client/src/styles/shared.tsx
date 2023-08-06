@@ -7,3 +7,9 @@ export const LineLimit = styled.span<{ $limit?: number }>`
   text-overflow: ellipsis;
   overflow: hidden;
 `;
+
+export const PaginationEl = styled.span`
+  display: flex;
+  justify-content: center;
+  align-items: center;
+`;

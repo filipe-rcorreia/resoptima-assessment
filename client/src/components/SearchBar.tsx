@@ -3,7 +3,7 @@ import { Input, SearchBarContainer, SearchBtn } from "../styles";
 import search from "../assets/search.svg";
 import { SearchIcon } from "../styles/searchBar";
 
-export const SearchBar = ({ onSearch }: { onSearch: (value: string) => void }) => {
+export const SearchBar = ({ onSearch }: { onSearch: React.Dispatch<React.SetStateAction<string>> }) => {
   const [inputValue, setInputValue] = useState<string>("");
   const handleChange = (e: React.ChangeEvent<HTMLInputElement>) => {
     setInputValue(e.target.value);

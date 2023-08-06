@@ -2,7 +2,7 @@ import { IMovie } from "../types";
 import { CardContainer, CardImage, CardText, CardTitle, CardDirector, CardDescription, CardYear } from "../styles";
 
 export const Card = (props: IMovie) => {
-  const { id, title, director, description, year, coverImage } = props;
+  const { title, director, description, year, coverImage } = props;
   return (
     <CardContainer>
       <CardImage src={coverImage} alt={title}></CardImage>
